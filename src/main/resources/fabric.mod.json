@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric_26_3_wishes_fabri",
+  "version": "${version}",
+  "name": "幸运抽奖机",
+  "description": "服务器端抽奖模组：自定义单抽/十连价格与奖池概率、50 抽保底、环形粒子与三段音效，自动对接 Savs Common Economy，客户端无需安装。",
+  "authors": [
+    "AutoMods"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.blockforge.generated.fabric263wishesfabri.LotteryMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "savs-common-economy": "*"
+  }
+}
